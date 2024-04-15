@@ -17,13 +17,13 @@
 </p>
 <h3>
   My Model Architecture:<br>
+</h3>
   <p>
     1. 2 convolutional layers followed by a max pooling layer with filter size=60<br>
   2. 2 convolutional layers followed by a max pooling layer with filter size=30<br>
   3. Then i have added a flatten layer followed by a dense layer with 500 filters<br>
   4. I have used adam optimizer with leanring rate=0.001 and categorical cross_entropy as my loss function 
   </p>
-</h3>
 <p>
   Then I inputted the test data using the os directory command and then used the model to test it on the data
 </p>
